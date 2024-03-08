@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag & Drop Using Pure Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Allows user to start dragging from only the drag handle -->
+    <div id="agendaList" class="ModContent clear cols25 padTop25">
+        <div id="agendaItem1" class="ModContent cols30 fill">
+            <div>
+                <!-- Drag handle to allow each item to be dragged -->
+                <div class="drag-handle" draggable="true">&#x2630;</div>
+                <input type="text" placeholder="Agenda 1 Textbox 1"><br>
+            </div>
+            <input type="text" placeholder="Agenda 1 Textbox 2"><br>
+            <!-- Stops the user from being able to drag the image -->
+            <img src="tmp.png" alt="Image" width="2%" draggable="false">
+        </div>
+        <div id="agendaItem2" class="ModContent cols30 fill">
+            <div>
+                <div class="drag-handle" draggable="true">&#x2630;</div>
+                <input type="text" placeholder="Agenda 2 Textbox 1"><br>
+            </div>
+            <input type="text" placeholder="Agenda 2 Textbox 2"><br>
+            <img src="tmp.png" alt="Image" width="2%" draggable="false">
+        </div>
+        <div id="agendaItem3" class="ModContent cols30 fill">
+            <div>
+                <div class="drag-handle" draggable="true">&#x2630;</div>
+                <input type="text" placeholder="Agenda 3 Textbox 1"><br>
+            </div>
+            <input type="text" placeholder="Agenda 3 Textbox 2"><br>
+            <img src="tmp.png" alt="Image" width="2%" draggable="false">
+        </div>
+        <div id="agendaItem4" class="ModContent cols30 fill">
+            <div>
+                <div class="drag-handle" draggable="true">&#x2630;</div>
+                <input type="text" placeholder="Agenda 4 Textbox 1"><br>
+            </div>
+            <input type="text" placeholder="Agenda 4 Textbox 2"><br>
+            <img src="tmp.png" alt="Image" width="2%" draggable="false">
+        </div>
+        <div id="agendaItem5" class="ModContent cols30 fill">
+            <div>
+                <div class="drag-handle" draggable="true">&#x2630;</div>
+                <input type="text" placeholder="Agenda 5 Textbox 1"><br>
+            </div>
+            <input type="text" placeholder="Agenda 5 Textbox 2"><br>
+            <img src="tmp.png" alt="Image" width="2%" draggable="false">
+        </div>
+        <div id="agendaItem6" class="ModContent cols30 fill">
+            <div>
+                <div class="drag-handle" draggable="true">&#x2630;</div>
+                <input type="text" placeholder="Agenda 6 Textbox 1"><br>
+            </div>
+            <input type="text" placeholder="Agenda 6 Textbox 2"><br>
+            <img src="tmp.png" alt="Image" width="2%" draggable="false">
+        </div>         
+    </div>
+    <script src="DragAndDrop.js"></script>
+</body>
+</html>
