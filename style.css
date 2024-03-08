@@ -1,0 +1,43 @@
+body {
+    background: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    background-color: white;
+    border: solid 3px white;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hold {
+    border: solid 5px #ccc;
+}
+
+.insert-line {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(38, 0, 255, 0.342);
+    margin-top: -1px;
+}
+
+.drag-handle {
+    display: inline-block;
+    margin-right: 10px;
+}
