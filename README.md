@@ -3,8 +3,8 @@ Simple Drag and Drop Reordering functionality
 
 ## Overview
 
-Three demos were provided demonstrating 3 different ways to implement drag and drop reordering functionality.
-HTML files were formatting according to class names and elements found in source HTML files for Chapterpro
+Three demos were provided demonstrating 3 different ways to implement drag-and-drop reordering functionality.
+HTML files were formatted according to class names and elements found in source HTML files for Chapterpro
 agendas.
 
 ## Compiling and Using
