@@ -72,8 +72,8 @@ function handleDrop(event) {
     // Find the closest ancestor of the event target with class 'ModContent'
     const targetItem = event.target.closest('.ModContent');
 
-    // Check if targetItem exists and is not the same as the draggedItem
-    if (targetItem && targetItem !== draggedItem) {
+    // Check if targetItem and draggedItem exists and targetItem is not the same as the draggedItem
+    if (targetItem && draggedItem && targetItem !== draggedItem) {
         // Determine the position to insert the draggedItem based on mouse position
         if (event.clientY > targetItem.getBoundingClientRect().top + (targetItem.offsetHeight / 2)) {
             // Insert the draggedItem after the targetItem
